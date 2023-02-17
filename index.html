@@ -1,1 +1,329 @@
-Hello Git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout9</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .top{
+            background-color: rgb(222, 217, 217);
+            text-align: center;
+            padding: 0 120px;
+            height: 70px;
+        
+          
+        }
+        .t1{
+            float: left;
+            width: 31%;
+            margin: 5px;
+        }
+        .t2{
+            float: left;
+            width: 31%;
+            margin: 5px;
+        }
+        .t3{
+            float: left;
+            width: 31%;
+            margin: 5px;
+        }
+        header{
+            background-color: whitesmoke;
+           
+        }
+        nav{
+            height: 50px;
+            line-height: 50px;
+            padding: 0 120px;
+        }
+        nav h2{
+            float: left;
+        }
+        nav ul{
+            float: right;
+            width: 30%;
+            list-style-type: none;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            padding: 10px;
+        }
+        section{
+          
+            height: 400px;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 153));
+        }
+        .s1{
+            padding: 70px 120px;
+            text-align: center;
+           
+        }
+        .s1 h1,p{
+                padding:10px 20px ;
+          }
+        .btn{
+            padding: 10px;
+            margin: 10px;
+             }
+        .ct{
+            padding: 0 120px;
+            height: 400px;
+            width: 100%;
+            margin: 10px;
+        }
+        .ct1{
+            background-image: linear-gradient(45deg, #bacd0c 27.27%, #1b78a6 27.27%, #1b78a6 50%, #9fccc5 50%, #9fccc5 77.27%, #1b78a6 77.27%, #1b78a6 100%);
+            background-size: 46.67px 46.67px;
+            height: 400px;
+            float: left;
+            width: 50%;
+            border-radius: 12px;
+        }
+        .ct2{
+            padding: 0 70px;
+            height: 400px;
+            float: right;
+            width: 50%;
+        }
+        .ct2 h3,ol li{
+           padding:10px ;
+        }
+        .event{
+            padding: 0 120px;
+            height: 400px;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 153));
+        }
+        .event h3{
+            padding: 15px 10px;
+        }
+        .event p{
+            padding: 6px 10px;
+        }
+
+        .btn1{
+            padding: 10px;
+            margin: 10px;
+            background: #bacd0c;
+        }
+        .fm{
+            height: 340px;
+            padding: 10px 120px;
+            width: 100%;
+            background-color: blanchedalmond;
+        }
+        input[type=text]
+        {
+            width: 100%;
+            border: 1px solid #9fccc5;
+            border-radius: 4px;
+            margin: 5px 5px;
+            padding: 10px 10px;
+        }
+        input[type=textarea]
+        {
+            width: 100%;
+            height: 100px;
+            padding: 10px 5px;
+            border: 1px solid #9fccc5;
+            border-radius: 4px;
+            margin: 5px 5px;
+        }
+        .btn2{
+            padding: 15px 10px;
+            border-radius: 50px;
+          
+            width: 100%;
+        }
+
+        .dv{
+            padding: 0 120px;
+            height: 400px;
+        }
+      .dv1{
+        width: 50%;
+        height: 400px;
+        float: left; 
+      }
+      .di1{
+        height: 200px;
+        padding: 20px 20px;
+      }
+      .bt1{
+        padding: 10px;
+        margin: 10px;
+      }
+      .di2{
+        height: 200px;
+        padding: 20px 20px;
+        
+      }
+      .bt2{
+        padding: 10px;
+        margin: 10px;
+      }
+      .dv2{
+        border: 1px solid gray;
+        width: 50%;
+        height: 400px;
+        float: right;
+        padding: 20px 20px;
+        
+      }
+      .bt3{
+        padding: 10px;
+        margin: 10px;
+      }
+
+     .ft{
+         padding: 10px 10px;
+         background-color: darkcyan;
+         text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div class="top">
+        <div class="t1">
+            <h3>Our Shop</h3> 
+           
+            <p>12 street,New york</p>
+        </div>
+        <div class="t2">
+            <h3>Email Us</h3> 
+           <p>giftshop@mail.com</p>
+        </div>
+        <div class="t3">
+            <h3>Call Us</h3> 
+           <p>+xx-xxxxxxxx</p>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <h2>Gift-Shop</h2>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- content -->
+    <section>
+        <div class="s1">
+            <h1>Gift bring cute little smile.</h1>
+            <h3>Make Your Friends Happy</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Autem, aliquid.</p>
+            <button type="button" class="btn">Get Special Offers</button>
+        </div>
+    </section>
+    <div class="ct">
+        <div class="ct1"> </div>
+        <div class="ct2"> 
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Ut voluptate repellat suscipit vel sit quidem itaque eaque ipsam excepturi eveniet unde repudiandae necessitatibus,
+                  dolores doloribus voluptatum provident iusto, soluta delectus!</p>
+                  <ol>
+                    <li>Plastic gift</li>
+                    <li>Fresh Flower</li>
+                    <li>Mask gift</li>
+                    <li>Gift offers</li>
+                  </ol>
+        </div>
+    </div>
+    <div class="event">
+        <h3>Event and festive offers</h3>
+        <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+             Non, dolore magnam! Amet eligendi quae maxime.
+              Non, dolore magnam! Amet eligendi quae maxime.</p>
+              <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                 Non, dolore magnam! Amet eligendi quae maxime.
+                  Non, dolore magnam! Amet eligendi quae maxime.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                     Non, dolore magnam! Amet eligendi quae maxime.
+                      Non, dolore magnam! Amet eligendi quae maxime.</p>
+                      <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                         Non, dolore magnam! Amet eligendi quae maxime.
+                          Non, dolore magnam! Amet eligendi quae maxime.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                             Non, dolore magnam! Amet eligendi quae maxime.
+                              Non, dolore magnam! Amet eligendi quae maxime.</p>
+             <button type="button" class="btn1">Festive Offers</button>
+    </div>
+    <div class="dv">
+      <div class="dv1">
+        <div class="di1">
+            <h3>Gifts</h3>
+            <p> Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Non, dolore magnam! Amet eligendi quae maxime.
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Non, dolore magnam! Amet eligendi quae maxime.
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Non, dolore magnam! Amet eligendi quae maxime.
+            </p>
+            <button type="button" class="bt1">Offers</button>
+        </div>
+        <div class="di2">
+            <h3>Gifts</h3>
+            <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Non, dolore magnam! Amet eligendi quae maxime.
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                Non, dolore magnam! Amet eligendi quae maxime.
+                Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+                </p>
+                <button type="button" class="bt2">Offers</button>
+        </div>
+     </div>
+      <div class="dv2">
+        <h3>Gifts</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+            Non, dolore magnam! Amet eligendi quae maxime.
+            Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+            Non, dolore magnam! Amet eligendi quae maxime.
+            Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+            Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+            Non, dolore magnam! Amet eligendi quae maxime.
+            Lorem ipsum dolor sit amet consectetur,adipisicing elit.
+            Non, dolore magnam! Amet eligendi quae maxime.
+            Lorem ipsum dolor sit amet consectetur,adipisicing elit.</p>
+        <button type="button" class="bt3">Offers</button>
+      </div>
+    </div>
+    <!-- contact -->
+    <div class="fm">
+        <form action="">
+            <input type="text" name="" placeholder="YourName">
+            <input type="text" name="" placeholder="YourEmail">
+            <input type="text" name="" placeholder="YourSubject">
+            <input type="textarea" name="" placeholder="YourMessage">
+            <button type="button" class="btn2"> <b>Submit</b> </button>
+        </form>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="ft">
+            <h1>Your Gift People's Happiness.</h1>
+            <p>Copyright @ 2023.</p>
+        </div>
+      
+    </footer>
+</body>
+</html>
